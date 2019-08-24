@@ -8,7 +8,9 @@ CREATE TABLE prjects (
 id INTEGER PRIMARY KEY, 
 title TEXT, 
 category TEXT, 
-funding goal INTEGER, 
+funding goal INTEGER,
+start_date INTEGER, 
+end_date INTEGER
+); 
 
-
-)
+CREATE TABLE 
