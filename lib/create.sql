@@ -8,5 +8,7 @@ CREATE TABLE prjects (
 id INTEGER PRIMARY KEY, 
 title TEXT, 
 category TEXT, 
+funding goal INTEGER, 
+
 
 )
