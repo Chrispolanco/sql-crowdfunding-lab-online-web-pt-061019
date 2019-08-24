@@ -1,1 +1,1 @@
-CREATE TABLE users (name)
+CREATE TABLE users ()
