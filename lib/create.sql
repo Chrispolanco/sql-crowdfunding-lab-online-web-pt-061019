@@ -4,4 +4,5 @@ name TEXT,
 age INTEGER
 ); 
 
-CREATE TABLE 
+CREATE TABLE prjects (
+)
