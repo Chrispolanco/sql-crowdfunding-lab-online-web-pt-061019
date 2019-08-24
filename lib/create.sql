@@ -1,1 +1,2 @@
-CREATE TABLE users ()
+CREATE TABLE users (id INTEGER PRIMARY KEY, 
+)
