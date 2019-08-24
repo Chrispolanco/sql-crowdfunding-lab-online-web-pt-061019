@@ -4,7 +4,7 @@ name TEXT,
 age INTEGER
 ); 
 
-CREATE TABLE prjects (
+CREATE TABLE projects (
 id INTEGER PRIMARY KEY, 
 title TEXT, 
 category TEXT, 
@@ -13,4 +13,6 @@ start_date INTEGER,
 end_date INTEGER
 ); 
 
-CREATE TABLE 
+CREATE TABLE pledges (
+id INTEGER PRIMARY KEY, 
+)
