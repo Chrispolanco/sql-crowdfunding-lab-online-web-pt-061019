@@ -22,7 +22,7 @@ def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_th
   "SELECT users.name, SUM(pledges.amount) FROM users JOIN pledges ON users.id = pledges.user_id GROUP BY users.name ORDER BY SUM(pledges.amount);"
 end
 
-def def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_them_by_the_summed_amount
+def selects_the_category_names_and_pledge_amounts_of_all_pledges_in_the_music_category
   "Select projects.category, SUM(pledges.amount) FROM projects JOIN pledges"
 end
 
